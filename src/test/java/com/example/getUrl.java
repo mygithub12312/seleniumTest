@@ -25,10 +25,10 @@ public class getUrl {
 
         //Click on the link
         WebDriverWait wait = new WebDriverWait(driver,5);
-        WebElement chaper1 = wait.until(
+        WebElement chapter1 = wait.until(
                 ExpectedConditions.presenceOfElementLocated(
                         By.xpath("/html/body/div[2]/ul/li[1]/a")));
-        chaper1.click();
+        chapter1.click();
 
         //Select radiobutton
         WebDriverWait wait1 = new WebDriverWait(driver, 5);
