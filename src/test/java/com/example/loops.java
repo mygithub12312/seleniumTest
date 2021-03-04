@@ -3,7 +3,7 @@ package com.example;
 //largest value
 public class loops {
     public static void main(String[] args) {
-        int[] arr = {132, 153, 2, 524, 12, 9, 3, 1, 7, 4, 64, 345, 23, 63, 24};
+        int[] arr = {9, 8, 2, 6, 12, 9, 3, 1, 7, 4, 10, 5, 8, 4, 0};
         int val = arr[0];
 
         for (int i = 0; i < arr.length; i++) {
